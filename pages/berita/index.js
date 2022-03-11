@@ -7,6 +7,7 @@ import Link from "next/link";
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/FooterSmall.js";
 
+
 export default function Landing() {
   return (
     <>
@@ -63,22 +64,19 @@ export default function Landing() {
         <section className="pb-20 bg-blueGray-200 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
-              <Link href='/'>
+              <Link href='/berita/berita1'>
               
               <div className="cursor-pointer lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                      <Link href='/'>
+                  <Link href='/berita/berita1'>
                     <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1574593983732-7b11df8b46c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFwcGVuaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                  />
+                    alt="..."
+                    className="max-w-full rounded-lg shadow-lg"
+                    src="https://fkip.unpak.ac.id/images/artikel/kearifan2.jpg"
+                    />
                   </Link>
-                    <h6 className="pt-8"><a href="/" className="text-lg font-semibold">Judul Berita</a></h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid veniam corporis iusto, repudiandae a officia. Sapiente quasi voluptatum at.
-                    </p>
+                    <h6 className="pt-8"><a href="/" className="text-lg font-semibold">Kearifan Lokal Masyarakat Kampung Sindang Barang</a></h6>
                   </div>
                 </div>
               </div>
@@ -123,22 +121,19 @@ export default function Landing() {
                 </div>
               </div>
               </Link>
-              <Link href='/'>
+              <Link href='/berita/berita4'>
               
               <div className="cursor-pointer lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                      <Link href='/'>
+                      <Link href='/berita/berita4'>
                     <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1574593983732-7b11df8b46c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFwcGVuaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                  src="https://fkip.unpak.ac.id//images/artikel/webinar-ipa1.jpg"
                   />
                   </Link>
-                    <h6 className="pt-8"><a href="/" className="text-lg font-semibold">Judul Berita</a></h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid veniam corporis iusto, repudiandae a officia. Sapiente quasi voluptatum at.
-                    </p>
+                    <h6 className="pt-8"><a href="/" className="text-lg font-semibold">  Webinar Implementasi Kurikulum Prototype Dalam Pembelajaran IPA</a></h6>
                   </div>
                 </div>
               </div>
@@ -183,6 +178,7 @@ export default function Landing() {
                 </div>
               </div>
               </Link>
+              
               
               
               

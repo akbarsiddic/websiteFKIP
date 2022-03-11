@@ -50,6 +50,8 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://ristekdikti.go.id/"
+                        target='_blank'
+                        
                       >
                         DIKTI
                       </a>
@@ -58,6 +60,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="http://sinta.ristekbrin.go.id/affiliations/detail?id=1394&view=overview"
+                        target="_blank"
                       >
                         Sinta DIKTI
                       </a>
@@ -66,6 +69,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.lldikti4.or.id/"
+                        target="_blank"
                       >
                         LLDikti Wilayah IV
                       </a>
@@ -74,6 +78,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.instagram.com/p/BxSBfTqAGEv/?utm_source=ig_share_sheet&igshid=1355v6kzj7f3o"
+                        target="_blank"
                       >
                         Beasiswa PPA Ditjen Belmawa
                       </a>
@@ -82,6 +87,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.banpt.or.id/"
+                        target="_blank"
                       >
                         Badan Akreditasi Nasional -PT
                       </a>
@@ -97,6 +103,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://journal.unpak.ac.id/"
+                        target="_blank"
                       >
                         Journal Online
                       </a>
@@ -105,6 +112,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://pmb.unpak.ac.id/"
+                        target="_blank"
                       >
                         PMB Online
                       </a>
@@ -113,6 +121,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.unpak.ac.id/layanan/lowongan-kerja-unpak"
+                        target="_blank"
                       >
                         Karier Unpak
                       </a>
@@ -121,6 +130,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://lib.unpak.ac.id/"
+                        target="_blank"
                       >
                         Perpustakaan
                       </a>
@@ -129,6 +139,7 @@ export default function Footer() {
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://io.unpak.ac.id/"
+                        target="_blank"
                       >
                         International Office
                       </a>

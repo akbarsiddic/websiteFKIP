@@ -10,9 +10,9 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/img/brand/favicon.ico" />
           <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/brand/apple-icon.png"
+            rel="pakuan-logo"
+            
+            href="/img/brand/Pakuan.png"
           />
         </Head>
         <body className="text-blueGray-700 antialiased">

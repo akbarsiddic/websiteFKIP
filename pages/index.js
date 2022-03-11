@@ -151,9 +151,9 @@ export default function Landing() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium, consequatur distinctio cumque voluptatem doloribus quasi sunt incidunt iusto. Esse optio repudiandae distinctio nulla? Qui repellendus atque sapiente modi quasi, libero dolore officiis impedit totam explicabo labore est eos quia.
                 </p>
                 <Link   href="https://fkip.unpak.ac.id/tentang-kami" passHref={true}>
-                  <p className="cursor-pointer font-bold text-blueGray-700 mt-8">
+                  <a href="/" target='_blank' className="cursor-pointer font-bold text-blueGray-700 mt-8">
                    Baca Selengkapnya!
-                  </p>
+                  </a>
                 </Link>
               </div>
 
@@ -219,8 +219,10 @@ export default function Landing() {
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <button className="text-lightBlue-500 bg-transparent border border-solid border-lightBlue-500 hover:bg-lightBlue-500 hover:text-white active:bg-lightBlue-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                         <Link href="https://pmb.unpak.ac.id/" passHref={true}>
-                         Daftar Sekarang! 
+                         <Link href="https://pmb.unpak.ac.id/"  passHref={true}>
+                          <a href="/" target='_blank'>
+                            Daftar Sekarang! 
+                          </a>
                          </Link> 
                       </button>
                     </li>
@@ -245,16 +247,15 @@ export default function Landing() {
                  <Link href="./berita">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmV3c3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                    src="https://fkip.unpak.ac.id/images/artikel/kearifan2.jpg"
                     className="cursor-pointer shadow-lg rounded-lg mx-auto max-w-120-px"
                     />
                   </Link>
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold"><Link href="./berita">Judul Berita</Link></h5>
+                    <h5 className="text-xl font-bold"><Link href="./berita/berita1">Kearifan Lokal Masyarakat Kampung Sindang Barang</Link></h5>
                     <p className="mt-1 text-xs text-blueGray-400 uppercase font-semibold">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta adipisci doloremque dolore explicabo nihil eveniet libero commodi fugiat velit impedit atque reiciendis, natus, animi, alias aliquid dolorem quas facere!
+                      10 Maret 2022
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -299,14 +300,14 @@ export default function Landing() {
                   <Link href="./berita">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmV3c3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                    src="https://fkip.unpak.ac.id//images/artikel/webinar-ipa1.jpg"
                     className="cursor-pointer shadow-lg rounded-lg mx-auto max-w-120-px"
                     />
                   </Link>
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold"><Link href="./berita">Judul Berita</Link></h5>
+                    <h5 className="text-xl font-bold"><Link href="./berita/berita4">Webinar Implementasi Kurikulum Prototype Dalam Pembelajaran IPA</Link></h5>
                     <p className="mt-1 text-xs text-blueGray-400 uppercase font-semibold">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi soluta adipisci doloremque dolore explicabo nihil eveniet libero commodi fugiat velit impedit atque reiciendis, natus, animi, alias aliquid dolorem quas facere!
+                      10 Maret 2022
                     </p>
                     
                   </div>
@@ -381,7 +382,7 @@ styles=" fill:#000000;">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10
                 </h6>
               </div>
               </Link>
-              <Link href="https://www.youtube.com/channel/UCYXuJVgSbEUrDSwQMb7zamQ" passHref={true}>
+              <Link href="https://www.youtube.com/channel/UCYXuJVgSbEUrDSwQMb7zamQ"  passHref={true}>
               <div className="cursor-pointer py-8 w-full lg:w-3/12 px-4 text-center">
                 <div className="cursor-pointer text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
