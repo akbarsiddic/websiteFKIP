@@ -33,7 +33,7 @@ export default function Landing() {
                     Fakultas Keguruan dan Ilmu Pendidikan
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                   FKIP di Universitas Pakuan fokus pada pengembangan pendidikan. Awalnya bernama IKIP PGRI di bawah bimbingan Yayasan PGRI Cabang Bogor, didirikan pada 1976. Bergabung dengan Universitas Bogor pada 1977 di bawah bimbingan Yayasan Kartika Siliwangi. FKIP dan fakultas lain menjadi bagian dari Universitas Pakuan di bawah bimbingan Yayasan Kartika Siliwangi. FKIP telah meningkatkan kompetensi staf pengajar dan fasilitas, termasuk Laboratorium Biologi dan Bahasa serta Perpustakaan. Semua program di FKIP telah diakreditasi oleh BAN-PT dengan predikat minimal B. FKIP berkomitmen menghasilkan calon guru berkualitas, mandiri, dan berkepribadian.
+                  FKIP di Universitas Pakuan fokus pada pengembangan pendidikan. Didirikan pada 1976 sebagai IKIP PGRI di bawah bimbingan Yayasan PGRI Cabang Bogor. FKIP telah meningkatkan kompetensi staf pengajar dan fasilitas, serta diakreditasi oleh BAN-PT dengan predikat minimal B. FKIP berkomitmen menghasilkan calon guru berkualitas.
                   </p>
                 </div>
               </div>
